@@ -2,14 +2,9 @@
 
 namespace WebApplication4.Controllers
 {
-    public class RegistrationController : Controller
+    public class StudentController : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult NewRegister()
         {
             return View();
         }
